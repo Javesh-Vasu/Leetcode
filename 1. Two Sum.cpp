@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum( vector<int>& nums, int target ) {
         vector<int> ans(2);
         unordered_map<int,int> complements;
         
