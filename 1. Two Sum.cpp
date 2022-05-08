@@ -1,7 +1,9 @@
 class Solution {
 public:
-    vector<int> twoSum( vector<int>& nums, int target ) {
+    vector<int> twoSum( vector <int> & nums, int target ) {
+
         vector<int> ans(2);
+        // map to store compliments
         unordered_map<int,int> complements;
         
         for ( int i = 0 ; i < nums.size() ; i++ )
