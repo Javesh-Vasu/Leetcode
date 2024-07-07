@@ -2,7 +2,6 @@ class Solution {
 public:
     vector<string> validStrings(int n) {
         vector<string> ans;
-        if ( n == 0) return ans;
         string dummy(n,'0');
         
         dummy[0] = '1';
